@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.choices {
+    margin-bottom: 20px;
+}
+.choice {
+    font-size: 40px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.choice:hover {
+    background-color: #ddd;
+}
